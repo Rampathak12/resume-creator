@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="resume-builder">
+        <div class="container">
+            <h1>Resume Creator</h1>
+            <div class="resume_container">
+                <form class="inputField">
+                    <input type="text" name="name" placeholder="Your Name" title="Enter Your Name">
+                    <input type="text" name="title" placeholder="Title/Sub Heading" title="Enter Title/Sub Heading">
+                    <textarea name="work_experience" placeholder="Work Experience" cols="40" rows="3" title="Enter Your Work Experience"></textarea>
+                    <textarea name="academic_details" placeholder="Academic Details" cols="40" rows="3" title="Enter Your Academic Details"></textarea>
+                    <input type="text" name="objective" placeholder="Objective" title="Enter Your Objective">
+                    <textarea name="skills" placeholder="Skills" cols="40" rows="3" title="Enter Your Skills"></textarea>
+                    <textarea name="projects" placeholder="Projects" cols="40" rows="3" title="Enter Your Projects"></textarea>
+                    <textarea name="achievements" placeholder="Achievements" cols="40" rows="3" title="Enter Your Achievements"></textarea>
+                    <textarea name="contact" placeholder="Contact Information" cols="40" rows="3" title="Enter Your Contact Information"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="output_container"></div>
+
+    <button onclick="toggleView()" class="toggle-button">Generate / Edit</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
